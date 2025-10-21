@@ -5,12 +5,16 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 1366px;
+  height: 768px;
+}
+
 header {
   display: flex;
   width: 1106px;
   height: 60px;
   margin: 31px 39px 0 37px;
-  display: flex;
   align-items: center;
   text-align: center;
 }
@@ -54,21 +58,27 @@ hr {
   width: 1106px;
 }
 
-main {
-  width: auto;
-}
-
 .container {
   display: flex;
   justify-content: space-between;
+  width: 1108.17px;
+  height: 424px;
 }
-.container div {
+.container .container-intro {
   text-align: start;
   width: 678px;
   height: 227px;
   margin: 114px 20px 0 54.56px;
 }
-.container h1 {
+.container .reciclar {
+  display: flex;
+  justify-content: flex-end;
+  width: 410.17px;
+  height: 424px;
+  margin: 91px 19.26px 97px 20px;
+}
+
+h1 {
   font-size: 60px;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
@@ -76,17 +86,13 @@ main {
   line-height: 130%;
   margin-bottom: 15px;
 }
-.container p {
+
+p {
   font-family: "Poppins", sans-serif;
   font-size: 19px;
   color: #4B5563;
-}
-
-.reciclar {
-  display: flex;
-  justify-content: flex-end;
-  width: 410.17px 424px;
-  margin: 74px 150px 0 20px;
+  width: 678px;
+  height: 48px;
 }
 
 .bt-doar-adquirir {
@@ -167,7 +173,7 @@ main {
   align-items: center;
   flex-direction: column;
 }
-.container-dados-info-caixa-1 h3 {
+.container-dados-info-caixa-1 h2 {
   color: #16A34A;
   font-size: 35px;
   font-family: "Poppins", sans-serif;
@@ -189,7 +195,7 @@ main {
   align-items: center;
   flex-direction: column;
 }
-.container-dados-info-caixa-2 h3 {
+.container-dados-info-caixa-2 h2 {
   color: #16A34A;
   font-size: 35px;
   font-family: "Poppins", sans-serif;
@@ -211,7 +217,7 @@ main {
   align-items: center;
   flex-direction: column;
 }
-.container-dados-info-caixa-3 h3 {
+.container-dados-info-caixa-3 h2 {
   color: #16A34A;
   font-size: 35px;
   font-family: "Poppins", sans-serif;
@@ -224,4 +230,258 @@ main {
   width: 192px;
   height: 24px;
   color: #4B5563;
+}
+
+.desenv-como {
+  margin: 110px 750px 22px 94px;
+  width: 338px;
+  height: 60px;
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: #1F2937;
+}
+
+.desenv-como-2 {
+  width: 646px;
+  height: 38px;
+  margin: 0 442px 0 94px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #1F2937;
+}
+
+.container-info-como {
+  margin: 94px 0 115px 0;
+  display: flex;
+  flex-direction: row;
+}
+.container-info-como .container-info-como-doadores {
+  margin: 0 22px 0 88.56px;
+  border-radius: 8px;
+  width: 491px;
+  height: 481px;
+  background-color: #F3F5F8;
+}
+.container-info-como .container-info-como-adquirir {
+  margin-right: 89.44px;
+  border-radius: 8px;
+  width: 491px;
+  height: 481px;
+  background-color: #F3F5F8;
+}
+
+.container-info-como-doadores-titulo {
+  width: 236.58px;
+  height: 53.58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 224.98px 28.42px 29.44px;
+}
+.container-info-como-doadores-titulo img {
+  width: 53.58px;
+  height: 53.58px;
+}
+.container-info-como-doadores-titulo h3 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #16A34A;
+}
+
+.container-info-como-doadores-texto {
+  width: 430px;
+  height: 24px;
+  margin: 0 31.56px 0 29.44px;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.container-info-como-doadores-passo1 {
+  display: flex;
+  width: 401px;
+  height: 48px;
+  margin: 36px 61px 45px 29px;
+  font-family: "Poppins", sans-serif;
+}
+.container-info-como-doadores-passo1 img {
+  width: 32px;
+  height: 32px;
+  justify-content: flex-start;
+  margin: 0 12px 16px 0;
+}
+.container-info-como-doadores-passo1 .titulo-passo-info {
+  width: 296px;
+  height: 24px;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+.container-info-como-doadores-passo1 .texto-passo-info {
+  width: 357px;
+  height: 24px;
+  font-size: 16px;
+}
+
+.container-info-como-doadores-passo2 {
+  display: flex;
+  width: 401px;
+  height: 48px;
+  margin: 45px 48px 45px 29px;
+  font-family: "Poppins", sans-serif;
+}
+.container-info-como-doadores-passo2 img {
+  width: 32px;
+  height: 32px;
+  justify-content: flex-start;
+  margin: 0 12px 16px 0;
+}
+.container-info-como-doadores-passo2 .titulo-passo-info {
+  width: 296px;
+  height: 24px;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+.container-info-como-doadores-passo2 .texto-passo-info {
+  width: 357px;
+  height: 24px;
+  font-size: 16px;
+}
+
+.container-info-como-doadores-passo3 {
+  display: flex;
+  width: 401px;
+  height: 48px;
+  margin: 45px 61px 65px 29px;
+  font-family: "Poppins", sans-serif;
+}
+.container-info-como-doadores-passo3 img {
+  width: 32px;
+  height: 32px;
+  justify-content: flex-start;
+  margin: 0 12px 16px 0;
+}
+.container-info-como-doadores-passo3 .titulo-passo-info {
+  width: 296px;
+  height: 24px;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+.container-info-como-doadores-passo3 .texto-passo-info {
+  width: 357px;
+  height: 24px;
+  font-size: 16px;
+}
+
+.container-info-como-adiquirintes-titulo {
+  width: 264.58px;
+  height: 53.58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 224.98px 28.42px 29.44px;
+}
+.container-info-como-adiquirintes-titulo img {
+  width: 53.58px;
+  height: 53.58px;
+}
+.container-info-como-adiquirintes-titulo h3 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #2563EB;
+}
+
+.container-info-como-adiquirintes-texto {
+  width: 430px;
+  height: 24px;
+  margin: 0 31.56px 0 29.44px;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.container-info-como-adiquirintes-passo1 {
+  display: flex;
+  width: 401px;
+  height: 48px;
+  margin: 36px 61px 45px 29px;
+  font-family: "Poppins", sans-serif;
+}
+.container-info-como-adiquirintes-passo1 img {
+  width: 32px;
+  height: 32px;
+  justify-content: flex-start;
+  margin: 0 12px 16px 0;
+}
+.container-info-como-adiquirintes-passo1 .titulo-passo-info {
+  width: 296px;
+  height: 24px;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+.container-info-como-adiquirintes-passo1 .texto-passo-info {
+  width: 357px;
+  height: 24px;
+  font-size: 16px;
+}
+
+.container-info-como-adiquirintes-passo2 {
+  display: flex;
+  width: 401px;
+  height: 48px;
+  margin: 45px 48px 45px 29px;
+  font-family: "Poppins", sans-serif;
+}
+.container-info-como-adiquirintes-passo2 img {
+  width: 32px;
+  height: 32px;
+  justify-content: flex-start;
+  margin: 0 12px 16px 0;
+}
+.container-info-como-adiquirintes-passo2 .titulo-passo-info {
+  width: 296px;
+  height: 24px;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+.container-info-como-adiquirintes-passo2 .texto-passo-info {
+  width: 357px;
+  height: 24px;
+  font-size: 16px;
+}
+
+.container-info-como-adiquirintes-passo3 {
+  display: flex;
+  width: 401px;
+  height: 48px;
+  margin: 45px 61px 65px 29px;
+  font-family: "Poppins", sans-serif;
+}
+.container-info-como-adiquirintes-passo3 img {
+  width: 32px;
+  height: 32px;
+  justify-content: flex-start;
+  margin: 0 12px 16px 0;
+}
+.container-info-como-adiquirintes-passo3 .titulo-passo-info {
+  width: 296px;
+  height: 24px;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+.container-info-como-adiquirintes-passo3 .texto-passo-info {
+  width: 357px;
+  height: 24px;
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
