@@ -205,13 +205,13 @@ hr {
 .container-info-como {
   width: 100%;
   margin: 94px 0 115px 0;
-  padding: 0 9%;
+  padding: 0 7%;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
 }
 .container-info-como .container-info-como-doadores {
-  margin: 0 22px 0 88.56px;
+  margin: 0 22px 0 0;
   border-radius: 8px;
   width: 491px;
   height: 481px;
@@ -685,4 +685,282 @@ footer .encerramento {
   display: flex;
   gap: 10px;
   margin-bottom: 71px;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 20px 5%;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+  header img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .links {
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+  }
+  .links a {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  .links button {
+    padding: 12px 20px;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  hr {
+    width: 95%;
+    margin: 10px auto 0;
+  }
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 5%;
+    min-height: auto;
+  }
+  .container .container-intro {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .container .container-intro h1 {
+    font-size: 32px;
+    width: 100%;
+    line-height: 120%;
+    margin-bottom: 15px;
+  }
+  .container .container-intro p {
+    font-size: 16px;
+    width: 100%;
+    line-height: 1.5;
+  }
+  .container .reciclar {
+    width: 280px;
+    height: auto;
+  }
+  .bt-doar-adquirir {
+    justify-content: center;
+    margin: 0 auto 80px;
+    gap: 20px;
+    padding: 0 5%;
+  }
+  .bt-doar-adquirir .bt-doar, .bt-doar-adquirir .bt-adquirir {
+    width: 160px;
+    height: 55px;
+    font-size: 14px;
+  }
+  .container-dados {
+    padding: 30px 5%;
+  }
+  .container-dados-info {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+  }
+  .container-dados-info .container-dados-info-caixa-1,
+  .container-dados-info .container-dados-info-caixa-2,
+  .container-dados-info .container-dados-info-caixa-3 {
+    min-width: auto;
+  }
+  .container-dados-info .container-dados-info-caixa-1 h2,
+  .container-dados-info .container-dados-info-caixa-2 h2,
+  .container-dados-info .container-dados-info-caixa-3 h2 {
+    font-size: 28px;
+  }
+  .container-dados-info .container-dados-info-caixa-1 p,
+  .container-dados-info .container-dados-info-caixa-2 p,
+  .container-dados-info .container-dados-info-caixa-3 p {
+    font-size: 14px;
+  }
+  .desenv-como {
+    margin: 60px auto 15px;
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    padding: 0 5%;
+  }
+  .desenv-como-2 {
+    margin: 0 auto 40px;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    padding: 0 5%;
+  }
+  .container-info-como {
+    flex-direction: column;
+    margin: 40px 0 60px;
+    padding: 0 5%;
+    gap: 30px;
+  }
+  .container-info-como .container-info-como-doadores,
+  .container-info-como .container-info-como-adquirir {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px 20px;
+  }
+  .container-info-como-doadores-titulo,
+  .container-info-como-adiquirintes-titulo {
+    width: 100%;
+    margin: 0 0 20px 0;
+    justify-content: flex-start;
+    gap: 15px;
+    font-size: 0.7em;
+  }
+  .container-info-como-doadores-texto,
+  .container-info-como-adiquirintes-texto {
+    width: 100%;
+    margin: 0 0 20px 0;
+    font-size: 0.9em;
+  }
+  .container-info-como-doadores-passo1,
+  .container-info-como-doadores-passo2,
+  .container-info-como-doadores-passo3,
+  .container-info-como-adiquirintes-passo1,
+  .container-info-como-adiquirintes-passo2,
+  .container-info-como-adiquirintes-passo3 {
+    width: 100%;
+    margin: 30px 5px 0 0;
+  }
+  .container-info-como-doadores-passo1 div,
+  .container-info-como-doadores-passo2 div,
+  .container-info-como-doadores-passo3 div,
+  .container-info-como-adiquirintes-passo1 div,
+  .container-info-como-adiquirintes-passo2 div,
+  .container-info-como-adiquirintes-passo3 div {
+    width: 100%;
+  }
+  .container-info-como-doadores-passo1 div .texto-passo-info,
+  .container-info-como-doadores-passo2 div .texto-passo-info,
+  .container-info-como-doadores-passo3 div .texto-passo-info,
+  .container-info-como-adiquirintes-passo1 div .texto-passo-info,
+  .container-info-como-adiquirintes-passo2 div .texto-passo-info,
+  .container-info-como-adiquirintes-passo3 div .texto-passo-info {
+    width: 97%;
+    font-size: 0.9em;
+  }
+  .container-produtos {
+    padding: 40px 5%;
+  }
+  .container-produtos h2 {
+    font-size: 28px;
+  }
+  .container-produtos h3 {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .container-produtos-exibicao {
+    gap: 20px;
+  }
+  .container-produtos-exibicao-produto {
+    max-width: 100%;
+  }
+  .container-produtos-exibicao-produto img {
+    width: 100%;
+    max-width: 250px;
+  }
+  .container-produtos-exibicao-produto button {
+    width: 140px;
+  }
+  .depoimentos-section {
+    padding: 40px 5%;
+  }
+  .depoimentos-section h2 {
+    font-size: 28px;
+  }
+  .depoimentos-section h3 {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .depoimentos-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .depoimento-card {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    min-height: 280px;
+  }
+  .depoimento-card p {
+    width: 100%;
+    height: auto;
+  }
+  .convite-section {
+    padding: 40px 5%;
+  }
+  .convite-section h2 {
+    font-size: 28px;
+  }
+  .convite-section h3 {
+    font-size: 18px;
+  }
+  .container-convite-botoes {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .container-convite-botoes #start-bt, .container-convite-botoes #about-bt {
+    margin: 5px 0;
+    width: 200px;
+  }
+  footer {
+    padding: 30px 15px;
+  }
+  .container-rodape {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .container-rodape div {
+    width: 100%;
+    text-align: center;
+  }
+  .container-rodape div p {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .container-rodape .redes-sociais-icones {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .encerramento {
+    margin: 30px 0 0 0;
+    font-size: 14px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container .container-intro h1 {
+    font-size: 48px;
+    width: 100%;
+  }
+  .container .container-intro p {
+    width: 100%;
+  }
+  .container .reciclar {
+    width: 320px;
+  }
+  .container-info-como {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .container-info-como .container-info-como-doadores,
+  .container-info-como .container-info-como-adquirir {
+    width: 90%;
+    margin: 0;
+  }
+  .depoimentos-grid {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .depoimento-card {
+    width: 45%;
+  }
 }/*# sourceMappingURL=style.css.map */
